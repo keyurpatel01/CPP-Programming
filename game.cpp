@@ -22,9 +22,12 @@ int main()
         }
         else if (no < number)
         {
-            cout<<"Number is smaller than random number"<<endl;
-        }else{
-            cout<<"Correct!"<<endl;
+            cout << "Number is smaller than random number" << endl;
         }
-    }return 0;
+        else
+        {
+            cout << "Correct!" << endl;
+        }
+    }
+    return 0;
 }
